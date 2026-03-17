@@ -38,3 +38,7 @@ When reviewing code, always check for the following points and provide actionabl
 ## Performance
 *   **N+1 Queries:** Database interactions must avoid N+1 query patterns.
 *   **Memory Usage:** Large collections should use streaming or pagination rather than loading everything into memory.
+
+When performing a code review, apply the checks in the `/instructions/coding-style-csharp.instructions.md` file.
+
+When performing a code review, focus on readability and avoid nested ternary operators.
